@@ -26,13 +26,12 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showString("" + (UserID))
 })
 let UserID = 0
-UserID = 102
+UserID = 101
 radio.setGroup(UserID)
 basic.showString("" + (UserID))
-basic.clearScreen()
 basic.forever(function () {
     basic.showLeds(`
-        # # . . .
+        # . . . .
         . . . . .
         . . . . .
         . . . . .
